@@ -23,12 +23,14 @@ I'm a **Artificial Intelligence and Data Science** student with a passion for bu
 </div>
 
 ---
-## 🌌 Connect with Me  
+## 🌟 Projects in Focus  
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/mohammed-ali-jaffari-440764289/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" title="LinkedIn" /></a>
-  <a href="mailto:mohammedalijaffari2005@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" title="Email" /></a>
-</div>
+- **[Customer Virtual Assistant](https://github.com/MAJ-22/Customer_Virtual_Assistant)**  
+"An intelligent Customer Virtual Assistant leveraging Generative AI, NLU, and Speech-to-Text technologies for seamless, multilingual IT Helpdesk support."  
+
+
+---
+
 
 ## 🌌 GitHub Highlights  
 
@@ -39,11 +41,10 @@ I'm a **Artificial Intelligence and Data Science** student with a passion for bu
 
 ---
 
-## 🌟 Projects in Focus  
+## 🌌 Connect with Me  
 
-- **[Customer Virtual Assistant](https://github.com/MAJ-22/Customer_Virtual_Assistant)**  
-"An intelligent Customer Virtual Assistant leveraging Generative AI, NLU, and Speech-to-Text technologies for seamless, multilingual IT Helpdesk support."  
-
-
----
+<div align="center">
+  <a href="https://www.linkedin.com/in/mohammed-ali-jaffari-440764289/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" title="LinkedIn" /></a>
+  <a href="mailto:mohammedalijaffari2005@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" title="Email" /></a>
+</div>
 
