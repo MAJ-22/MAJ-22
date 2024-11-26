@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 400" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <!-- Gradient Background -->
+    <!-- Deep Space Gradient Background -->
     <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
-      <stop offset="50%" stop-color="#1C1C1C" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="0%" stop-color="#0C0C1E" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#040414" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0C0C1E" stop-opacity="1"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="1500" height="400" fill="url(#spaceGradient)"/>
 
-  <!-- Interactive Star Layer -->
   <script type="text/javascript">
     <![CDATA[
       function moveStars(evt) {
@@ -20,16 +19,26 @@
         const rect = svgElement.getBoundingClientRect();
         const mouseX = (evt.clientX - rect.left) / rect.width;
         const mouseY = (evt.clientY - rect.top) / rect.height;
-
         starLayer.setAttribute('transform', `translate(${-mouseX * 50}, ${-mouseY * 50})`);
       }
     ]]>
   </script>
 
-  <!-- Star Layer with Mouse Interaction -->
+  <!-- Star Layer with Advanced Movement -->
   <g id="starLayer">
-    <!-- Multiple Stars with Different Movement Patterns -->
     <g class="star-group">
+      <!-- Multiple Stars with Different Sizes and Opacities -->
+      <g fill="white">
+        <circle cx="100" cy="50" r="1.5" opacity="0.7"/>
+        <circle cx="300" cy="150" r="1" opacity="0.5"/>
+        <circle cx="500" cy="75" r="2" opacity="0.8"/>
+        <circle cx="700" cy="250" r="1.5" opacity="0.6"/>
+        <circle cx="1000" cy="100" r="2" opacity="0.7"/>
+        <circle cx="1250" cy="300" r="1" opacity="0.5"/>
+        <circle cx="1400" cy="50" r="1.5" opacity="0.6"/>
+      </g>
+
+      <!-- Animated Stars -->
       <circle cx="200" cy="100" r="2" fill="white" opacity="0.7">
         <animateMotion 
           path="M0,0 Q50,25 0,50" 
@@ -52,10 +61,10 @@
   </g>
 
   <!-- Orbital Elements -->
-  <g opacity="0.4">
+  <g opacity="0.3">
     <circle cx="300" cy="100" r="40" 
             fill="none" 
-            stroke="rgba(100,100,200,0.2)" 
+            stroke="rgba(255,255,255,0.2)" 
             stroke-width="1">
       <animateTransform
         attributeName="transform"
@@ -67,7 +76,7 @@
     </circle>
     <circle cx="1200" cy="300" r="30" 
             fill="none" 
-            stroke="rgba(100,100,200,0.2)" 
+            stroke="rgba(255,255,255,0.2)" 
             stroke-width="1">
       <animateTransform
         attributeName="transform"
@@ -79,32 +88,22 @@
     </circle>
   </g>
 
-  <!-- Text with Hover Effect -->
-  <text x="750" y="200" 
+  <!-- Name Text -->
+  <text x="750" y="220" 
         text-anchor="middle" 
         font-family="'Space Mono', monospace" 
-        font-size="62" 
+        font-size="72" 
         font-weight="700" 
         fill="rgba(255,255,255,0.9)"
-        letter-spacing="3"
-        class="hover-text">
-    AI DEVELOPER UNIVERSE
+        letter-spacing="3">
+    Mohammed Ali Jaffari
     <animate 
       attributeName="opacity"
       values="0.9;0.7;0.9"
       dur="3s"
       repeatCount="indefinite"/>
   </text>
-  <text x="750" y="260" 
-        text-anchor="middle" 
-        font-family="'Space Mono', monospace" 
-        font-size="32" 
-        font-weight="400" 
-        fill="rgba(255,255,255,0.6)"
-        letter-spacing="2">
-    Mohammed Ali Jaffari
-  </text>
 
-  <!-- Make SVG Responsive to Mouse Movement -->
+  <!-- Interactive Overlay -->
   <rect width="1500" height="400" fill="transparent" onmousemove="moveStars(evt)"/>
 </svg>
