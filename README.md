@@ -1,4 +1,4 @@
-<!-- Sci-Fi Themed GitHub Profile README -->
+
 ![Sci-Fi Banner](https://raw.githubusercontent.com/MAJ-22/MAJ-22/main/banner.svg)
 # Hi👾, I'm Mohammed Ali Jaffari
 
