@@ -16,7 +16,6 @@ I'm a **Artificial Intelligence and Data Science** student with a passion for bu
   <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" title="Python" />
   <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" title="JavaScript" />
   <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" title="React" />
-  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" />
   <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="Firebase" title="Firebase" />
   <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" title="MySQL" />
   <img src="https://img.icons8.com/?size=50&id=3sGOUDo9nJ4k&format=png&color=000000" alt="Power BI" title="Power BI" />
